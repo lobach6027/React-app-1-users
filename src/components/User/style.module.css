@@ -1,0 +1,30 @@
+.card{
+    max-width: 50%;
+    height: 150px;
+    background-color: #535c68;
+    padding: 20px;
+    margin: 0 auto 15px;
+    border-radius: 5px;
+    display: flex;
+    gap: 15px;
+}
+.foto{
+    width: 20%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.info{
+   padding: 5px;
+   width: 80%;
+   background-color:#ecf0f1;
+   border-radius: 5px;
+   position: relative;
+}
+.exp{
+background-color: rgb(151, 247, 151);
+padding: 5px;
+border-radius: 5px;
+position: absolute;
+right: 10px;
+top: 10px;
+}
